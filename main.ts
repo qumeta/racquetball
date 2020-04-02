@@ -105,10 +105,10 @@ function letBallBounce () {
         if (numFloorBounces > 1) {
             ballHeight = ballZStats.y - 127
             if (score > oldHighScore) {
-                game.showLongText("得分: " + ("" + convertToText(score) + ("       最高分:" + convertToText(oldHighScore))), DialogLayout.Top)
+                game.showLongText("得分: " + ("" + convertToText(score) + ("       历史最高分:" + convertToText(oldHighScore))), DialogLayout.Top)
                 oldHighScore = score
             } else {
-                game.showLongText("得分: " + ("" + convertToText(score) + ("       高分: " + convertToText(oldHighScore))), DialogLayout.Top)
+                game.showLongText("得分: " + ("" + convertToText(score) + ("       最高分:" + convertToText(oldHighScore))), DialogLayout.Top)
             }
             score = 0
             raqueteer.setImage(img`

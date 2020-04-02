@@ -1,0 +1,18 @@
+{
+    "name": "racquetball",
+    "dependencies": {
+        "device": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.0.32",
+        "animation": "*"
+    },
+    "description": "",
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "preferredEditor": "blocksprj",
+    "testFiles": [
+        "test.ts"
+    ]
+}
